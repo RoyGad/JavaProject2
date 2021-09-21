@@ -22,6 +22,12 @@ public class Candidate {
 	public void setAge(int age) {
 		Age = age;
 	}
+	
+	public String GotInterview()
+	{
+		return ("Yes and got hired");
+	
+	}
  
 	
 
