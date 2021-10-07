@@ -10,6 +10,12 @@ public class Candidate {
 		Age=age;
 	}
 	
+	public Candidate()
+	{
+		Name="";
+		Age=0;
+	}
+	
 	public String getName() {
 		return Name;
 	}
@@ -23,7 +29,7 @@ public class Candidate {
 		Age = age;
 	}
 	
-	public String GotInterview()
+	public String GotInterviewed()
 	{
 		return ("Yes and got hired");
 	
