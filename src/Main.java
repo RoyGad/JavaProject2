@@ -13,10 +13,10 @@ public class Main {
 //		 String.format("%s is %d years old.", name, age);
 		
 		  System.out.println(String.
-		  format("The Employee name: %s got hired on: %s with a salary of: %s",
+		  format("The Employee name: %s got hired on: %s with a very nice salary of: %s",
 		  emp.getName(), emp.getHiringDate().format(formatter), emp.getSalary()));
 		  
-		  if(emp.CheckAge()) {System.out.println("Old but not obsolete");}
+		  if(emp.CheckAge()) {System.out.println("Old but not obsolete, I like it and I want to keep it");}
 		 
 
 	}
