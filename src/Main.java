@@ -16,7 +16,7 @@ public class Main {
 		  format("The Employee name: %s got hired on: %s with a very nice salary of: %s",
 		  emp.getName(), emp.getHiringDate().format(formatter), emp.getSalary()));
 		  
-		  if(emp.CheckAge()) {System.out.println("Old but not obsolete, I like it and I want to keep it");}
+		  if(emp.CheckAge()) {System.out.println("Old but not obsolete, like it and I want to keep it");}
 		 
 
 	}
